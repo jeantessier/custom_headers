@@ -1,24 +1,16 @@
-# README
+# Custom Header
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This sample application tries to pass a custom header to a controller as part
+of a request spec.
 
-Things you may want to cover:
+## Running Tests
 
-* Ruby version
+    $ bundle exec rspec
 
-* System dependencies
+## Running the Server
 
-* Configuration
+    $ bin/rails server
 
-* Database creation
+Then, you can call the controller with a custom header with:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    $ http :3000/custom_headers X-MyHeader:"My special header value"
