@@ -19,6 +19,8 @@
 
 .byebug_history
 
+node_modules/
+
 # Ignore RubyMine and IntelliJ project files
 .generators
 .idea
